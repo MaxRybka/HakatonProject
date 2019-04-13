@@ -1,22 +1,23 @@
 fileFormatVersion: 2
-guid: 3328a80aa2495e94d9127cdca7236749
+guid: c5b609462a0b2a645a9d9015fe5bc71d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: 10067_Eiffel_Tower_v1
+    100000: default
     100002: //RootNode
-    400000: 10067_Eiffel_Tower_v1
+    400000: default
     400002: //RootNode
-    2100000: 10067_Eiffel_Tower_v1Mat
-    2300000: 10067_Eiffel_Tower_v1
-    3300000: 10067_Eiffel_Tower_v1
-    4300000: 10067_Eiffel_Tower_v1
+    2100000: defaultMat
+    2300000: default
+    3300000: default
+    4300000: default
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 10067_Eiffel_Tower_v1Mat
-    second: {fileID: 2100000, guid: 07a42a6e529764946936d09aa599cb2c, type: 2}
+      name: defaultMat
+    second: {fileID: 2100000, guid: 513bd7ae28e696244815ba7d471ecd32, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
