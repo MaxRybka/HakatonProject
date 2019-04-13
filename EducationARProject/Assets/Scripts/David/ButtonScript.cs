@@ -1,13 +1,18 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 
 public class ButtonScript : MonoBehaviour
 {
-    [Tooltip("Rotation object to edit")]
-    public Rotation rotation;
+    public ModelsManager modelsManager;
+
+    [Tooltip("Model to activate")]
+    public GameObject Model;
+
 
     public void OnClick()
     {
-        rotation.isRotationActive = false;
+        modelsManager.StopGlobe();
+        modelsManager.SetModel(Model);
     }
 
 }

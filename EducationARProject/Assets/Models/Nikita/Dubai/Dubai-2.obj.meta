@@ -222,7 +222,187 @@ ModelImporter:
     4300068: SketchUp_group_0_ID87
     4300070: SketchUp_group_0_ID95
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID103Mat
+    second: {fileID: 2100000, guid: 1d604426232065a43951d42f702a9934, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID111Mat
+    second: {fileID: 2100000, guid: bc907539e7df2604896e3db2a6c94ab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID119Mat
+    second: {fileID: 2100000, guid: deff91a76c43f1f459183595f2c499b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID127Mat
+    second: {fileID: 2100000, guid: 8847e21800d98df4fbcea880a06061a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID135Mat
+    second: {fileID: 2100000, guid: e3e10fea3183714438cf8bda4d2e8557, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID143Mat
+    second: {fileID: 2100000, guid: 1b7b9110afc2df443a31108800940205, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID151Mat
+    second: {fileID: 2100000, guid: 5e71d30ac0484ef4bb4e730538cafdb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID159Mat
+    second: {fileID: 2100000, guid: 5130f7a4dd1336b4ca10dd9757add62c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID167Mat
+    second: {fileID: 2100000, guid: 2c33a06f16a431f418275e2765c1897c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID16Mat
+    second: {fileID: 2100000, guid: 5ead1fc286bed6149a3705eb5f0ceeed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID175Mat
+    second: {fileID: 2100000, guid: fd6d5b2757c02ec4aa6d7bfada7aec2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID183Mat
+    second: {fileID: 2100000, guid: 972087a3bd677954a921f75fd5ce7d7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID191Mat
+    second: {fileID: 2100000, guid: 8df6356b0ffd7cb42a66f0e581e413d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID199Mat
+    second: {fileID: 2100000, guid: 004a40a3b381e7349883f6369e744907, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID207Mat
+    second: {fileID: 2100000, guid: 125ac1ea9a9755f4e9db3804c618efd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID215Mat
+    second: {fileID: 2100000, guid: 72b334bf35ab0ad42b58eccb0bc32e72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID223Mat
+    second: {fileID: 2100000, guid: 7d899daab8e18524cadb9a6c72edbfaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID231Mat
+    second: {fileID: 2100000, guid: 766957eed494bc0479761675356c8483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID239Mat
+    second: {fileID: 2100000, guid: 6bbea454c3419b944a8ea2adfeace283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID247Mat
+    second: {fileID: 2100000, guid: 53e848c256557794fb6766b6939b2f59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID255Mat
+    second: {fileID: 2100000, guid: aa814732450af864e816c65d1241a788, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID263Mat
+    second: {fileID: 2100000, guid: 83a32d0c0caa68f408211d186837de57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID271Mat
+    second: {fileID: 2100000, guid: 3695664e201e6484691df634c990a441, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID279Mat
+    second: {fileID: 2100000, guid: 04812d7adcec3d049aaf1335e0532c7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID287Mat
+    second: {fileID: 2100000, guid: 3fd2582722084cd4ba2d92c1fda25985, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID295Mat
+    second: {fileID: 2100000, guid: 8f9d5f563354a104794c92cb317a81ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID29Mat
+    second: {fileID: 2100000, guid: fbe9be79078ebca45a543c9fc4339a2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID39Mat
+    second: {fileID: 2100000, guid: f374fe670b0619b4c9b3ba058f0351e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID3Mat
+    second: {fileID: 2100000, guid: 00b1bc35efbf17e4595d30cd2a44f526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID47Mat
+    second: {fileID: 2100000, guid: 45b627ce66b457a4480291a7b6b5a47f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID55Mat
+    second: {fileID: 2100000, guid: ce65c26dccd05a343bd127c69c9d1c89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID63Mat
+    second: {fileID: 2100000, guid: 5b000333e9a767f459d33bfdb3df5125, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID71Mat
+    second: {fileID: 2100000, guid: 54dd3ba4b7065dd4d9b3d1c384808c35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID79Mat
+    second: {fileID: 2100000, guid: d665a736f23f78e4ba66b3e6f0586134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID87Mat
+    second: {fileID: 2100000, guid: c4d34547d0d3769488c80cad6724847b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SketchUp_group_0_ID95Mat
+    second: {fileID: 2100000, guid: 9bf88f88420eb0f4287e32f11833f328, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -253,7 +433,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1

@@ -23,7 +23,22 @@ ModelImporter:
     4300000: lenin1
     4300002: lenin2
     4300004: lenin2a
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08_-_Default
+    second: {fileID: 2100000, guid: 3cc2605444af387428e8a55ecedb8e94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__2766
+    second: {fileID: 2100000, guid: bd5b5e243becb12478fdc259ab8f577e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: c4dd7464.dds
+    second: {fileID: 2100000, guid: e89eed571fe7c8a4a938d57af0d7da0a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
