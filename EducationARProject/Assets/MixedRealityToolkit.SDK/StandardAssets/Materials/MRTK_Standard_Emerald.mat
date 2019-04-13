@@ -130,6 +130,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _ProximityLight: 0
+    - _ProximityLightTwoSided: 0
     - _Reflections: 0
     - _Refraction: 0
     - _RefractiveIndex: 1.1
