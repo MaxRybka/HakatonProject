@@ -9,7 +9,10 @@ public class ModelsManager : MonoBehaviour
     [Tooltip("Place where to spawn model")]
     public Transform PositionAnchor;
 
+    public GameObject InfoPanel;
+
     private GameObject activeModel;
+    private GameObject activePanel;
 
     public void SetModel(GameObject model)
     {
@@ -19,13 +22,18 @@ public class ModelsManager : MonoBehaviour
         }
 
         activeModel = Instantiate(model, PositionAnchor);
-        
+
+        activePanel = activeModel.GetComponent<ModelScript>().SetInfo(InfoPanel);
+
     }
 
     private void DeleteModel()
     {
         activeModel.SetActive(false);
         Destroy(activeModel);
+
+        activePanel.SetActive(false);
+        Destroy(activePanel);
     }
 
     public void StopGlobe()

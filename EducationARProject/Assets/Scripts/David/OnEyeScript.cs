@@ -10,7 +10,7 @@ namespace Assets.Scripts.David
 
         void IMixedRealityFocusHandler.OnFocusEnter(FocusEventData eventData)
         {
-            Debug.Log("Jopa");
+            Debug.Log("Jo-pa");
             Anim.SetBool("focused" , true);
         }
 
