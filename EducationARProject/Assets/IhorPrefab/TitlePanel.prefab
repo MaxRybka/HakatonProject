@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.000000027483845}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &8601190659766787516
@@ -316,8 +316,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 590, y: 0}
+  m_SizeDelta: {x: 1140, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8601190661651381909
 CanvasRenderer:
@@ -390,7 +390,7 @@ GameObject:
   - component: {fileID: 8601190661852356685}
   - component: {fileID: 8601190661852356682}
   m_Layer: 5
-  m_Name: InfoPanel 1
+  m_Name: TitlePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +405,7 @@ RectTransform:
   m_GameObject: {fileID: 8601190661852356683}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 0.001070208, y: 0.001375474, z: 0.001070208}
+  m_LocalScale: {x: 0.001070208, y: 0.001070208, z: 0.001070208}
   m_Children:
   - {fileID: 8601190660841261642}
   m_Father: {fileID: 0}
