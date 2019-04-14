@@ -39,6 +39,7 @@ public class ButtonScript : MonoBehaviour
         {
             
             IsActive = false;
+            modelsManager.activeButton.GetComponent<OnEyeScript>().Unfocus();
 
             modelsManager.activeButton = null;
         }

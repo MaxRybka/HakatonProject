@@ -14,6 +14,8 @@ public class ModelsManager : MonoBehaviour
 
     public Text Title;
 
+    public GameObject AppBar;
+
     private GameObject activeModel;
 
     [HideInInspector]
@@ -30,6 +32,7 @@ public class ModelsManager : MonoBehaviour
 
         activeModel.GetComponent<ModelScript>().SetInfo(InfoPanel);
 
+        
     }
 
     public void SetTitle(string title)
@@ -55,5 +58,16 @@ public class ModelsManager : MonoBehaviour
     {
         Rotation.isRotationActive = true;
         
+    }
+
+    public void HideInfoPanel()
+    {
+        InfoPanel.SetActive(false);
+    }
+
+    public void ShowInfoPanel()
+    {
+        InfoPanel.SetActive(true);
+        activeModel.GetComponent<ModelScript>().SetInfo(InfoPanel);
     }
 }
