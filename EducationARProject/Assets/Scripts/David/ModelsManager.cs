@@ -1,5 +1,6 @@
 ﻿
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ModelsManager : MonoBehaviour
 {
@@ -11,8 +12,12 @@ public class ModelsManager : MonoBehaviour
 
     public GameObject InfoPanel;
 
+    public Text Title;
+
     private GameObject activeModel;
-    private GameObject activePanel;
+
+    [HideInInspector]
+    public ButtonScript activeButton;
 
     public void SetModel(GameObject model)
     {
@@ -23,21 +28,32 @@ public class ModelsManager : MonoBehaviour
 
         activeModel = Instantiate(model, PositionAnchor);
 
-        activePanel = activeModel.GetComponent<ModelScript>().SetInfo(InfoPanel);
+        activeModel.GetComponent<ModelScript>().SetInfo(InfoPanel);
 
     }
 
-    private void DeleteModel()
+    public void SetTitle(string title)
+    {
+        Title.text = title;
+    }
+
+    public void DeleteModel()
     {
         activeModel.SetActive(false);
         Destroy(activeModel);
 
-        activePanel.SetActive(false);
-        Destroy(activePanel);
+        InfoPanel.SetActive(false);
+        
     }
 
     public void StopGlobe()
     {
         Rotation.isRotationActive = false;
+    }
+
+    public void ContinueGlobe()
+    {
+        Rotation.isRotationActive = true;
+        
     }
 }

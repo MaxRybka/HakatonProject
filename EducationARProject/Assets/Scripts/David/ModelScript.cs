@@ -10,10 +10,10 @@ public class ModelScript : MonoBehaviour
 
     public GameObject SetInfo(GameObject infoPanel)
     {
-        GameObject panel = Instantiate(infoPanel, InfoRoot);
+        infoPanel.transform.position = InfoRoot.position;
 
-        panel.GetComponentInChildren<Text>().text = TextFile.text;
-
-        return panel;
+        infoPanel.GetComponentInChildren<Text>().text = TextFile.text;
+        infoPanel.SetActive(true);
+        return infoPanel;
     }
 }
